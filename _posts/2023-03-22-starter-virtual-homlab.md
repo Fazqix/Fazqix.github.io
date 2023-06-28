@@ -89,74 +89,77 @@ Once the pfSense reboots with the default configured settings, you should come t
 
 -- Insert Picture --
 
-From here, type "1" to select 1) Assign Interfaces after the Enter an option: prompt.
+From here, type `1` to select 1) Assign Interfaces after the Enter an option: prompt.
 
-It will ask you if VLANs should be set up now, type "n" for no.
+It will ask you if VLANs should be set up now, type `N` for no.
 
 Next,
 
--  Type "em0" to assign it to the WAN interface
--  Type "em1" to assign it to the LAN interface
--  Type "em2" to assign it to the Optional 1 interface
--  Type "em3" to assign it to the Optional 2 interface
--  Type "em4" to assign it to the Optional 3 interface
--  Type "em5" to assign it to the Optional 4 interface
+-  Type `em0` to assign it to the WAN interface
+-  Type `em1` to assign it to the LAN interface
+-  Type `em2` to assign it to the Optional 1 interface
+-  Type `em3` to assign it to the Optional 2 interface
+-  Type `em4` to assign it to the Optional 3 interface
+-  Type `em5` to assign it to the Optional 4 interface
 
-Then type "y" to proceed. These changes will be made and the menu from the screenshot above should pop back up.
+Then type `Y` to proceed. 
 
-**LAN Interface**
+> These changes will be made and the menu from the screenshot above should pop back up. 
+{: .prompt-info }
 
-From here, type "2" to select 2) Set interface(s) IP address after the Enter an option: prompt.
+**<u>LAN Interface</u>**
+
+From here, type `2` to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
 Start with picking the LAN interface which is number 2.
 
--  Assign "192.168.1.1" as the LAN IPv4 Address.
--  Assign "24" as the new LAN IPv4 Subnet Bit Count.
--  Click "Enter" for both of the next options (IPv4 Upstream Gateway and IPv6).
--  Type "y" to enable the DHCP server on LAN.
--  Set the start address of the IPv4 range as "192.168.1.11".
--  Set the end address of the IPv4 range as "192.168.1.200".
--  Type "n" to not revert to HTTP as the webConfigurator protocol.
+-  Assign `192.168.1.1` as the LAN IPv4 Address.
+-  Assign `24` as the new LAN IPv4 Subnet Bit Count.
+-  Click `Enter` for both of the next options (IPv4 Upstream Gateway and IPv6).
+-  Type `Y` to enable the DHCP server on LAN.
+-  Set the start address of the IPv4 range as `192.168.1.11`.
+-  Set the end address of the IPv4 range as `192.168.1.200`.
+-  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
-**OPT1 Interface**
+**<u>OPT1 Interface</u>**
 
-From here, type "2" again to select 2) Set interface(s) IP address after the Enter an option: prompt.
+From here, type `2` again to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
 Start with picking the OPT1 interface which is number 3.
 
--  Assign 192.168.2.1 as the LAN IPv4 Address.
--  Assign 24 as the new LAN IPv4 Subnet Bit Count.
--  Click Enter for both of the next options (IPv4 Upstream Gateway and IPv6).
--  Type n to enable the DHCP server on LAN.
--  Type n to not revert to HTTP as the webConfigurator protocol.
+-  Assign `192.168.2.1` as the LAN IPv4 Address.
+-  Assign `24` as the new LAN IPv4 Subnet Bit Count.
+-  Click `Enter` for both of the next options (IPv4 Upstream Gateway and IPv6).
+-  Type `N` to enable the DHCP server on LAN.
+-  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
-**OPT2 Interface**
+**<u>OPT2 Interface</u>**
 
-From here, type "2" again to select 2) Set interface(s) IP address after the Enter an option: prompt.
+From here, type `2` again to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
 Start with picking the OPT2 interface which is number 4.
 
--  Assign "192.168.3.1" as the LAN IPv4 Address.
--  Assign "24" as the new LAN IPv4 Subnet Bit Count.
--  Click "Enter" for both of the next options (IPv4 Upstream Gateway and IPv6).
--  Type "n" to enable the DHCP server on LAN.
--  Type "n" to not revert to HTTP as the webConfigurator protocol.
+-  Assign `192.168.3.1` as the LAN IPv4 Address.
+-  Assign `24` as the new LAN IPv4 Subnet Bit Count.
+-  Click `Enter` for both of the next options (IPv4 Upstream Gateway and IPv6).
+-  Type `N` to enable the DHCP server on LAN.
+-  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
-**OPT3 Interface**
+**<u>OPT3 Interface</u>**
 
-Leave OPT3 Interface without an IP address as it is going to have traffic that will be monitored by Security Onion.
+Leave **OPT3 Interface** without an IP address as it is going to have traffic that will be monitored by Security Onion.
 
-**OPT4 Interface**
+**<u>OPT4 Interface</u>**
 
-From here, type "2" again to select 2) Set interface(s) IP address after the Enter an option: prompt.
+From here, type `2` again to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
 Start with picking the OPT4 interface which is number 6.
 
--  Assign "192.168.4.1" as the LAN IPv4 Address.
--  Assign "24" as the new LAN IPv4 Subnet Bit Count.
--  Click "Enter" for both of the next options (IPv4 Upstream Gateway and IPv6).
--  Type "n" to enable the DHCP server on LAN.
--  Type "n" to not revert to HTTP as the webConfigurator protocol.
+-  Assign `192.168.4.1` as the LAN IPv4 Address.
+-  Assign `24` as the new LAN IPv4 Subnet Bit Count.
+-  Click `Enter` for both of the next options (IPv4 Upstream Gateway and IPv6).
+-  Type `N` to enable the DHCP server on LAN.
+-  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
 After all those changes to each interface, the interface list at the main menu should look like this :
 
@@ -164,7 +167,9 @@ After all those changes to each interface, the interface list at the main menu s
 
 The WAN Interface IP address will most likely be different so don't panic :)
 
-This marks the end of the configurations on the pfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. PfSense is safe to shut down from here by typing "6" to Halt System.
+PfSense is safe to shut down from here by typing `6` to Halt System.
+
+This marks the end of the configurations on the PfSense virutal machine. Additional changes will come through the Kali Linux Virtual Machine during the section of steps below. 
 
 #### **Web Configurations**
 
@@ -172,54 +177,62 @@ Start up your Kali virtual machine for this next part.
 
 Once the Kali Linux machine is started, you can use the default credentials (if not yet changed).
 
-Username : "kali"
-Password : "kali"
-Navigate to the web browser and search "https://192.168.1.1"
+-  Username : `kali`
+-  Password : `kali`
+
+Navigate to the web browser and search <https://192.168.1.1>
 
 If successfully connected to the pfSense firewall, a screen like the one below should show up :
 
 -- Insert Picture --
 
-Click the Advanced... button and a new screen confirming to accept the risk will pop up.
+Click the <u>Advanced...</u> button and a new screen confirming to accept the risk will pop up.
 
-Click the Accept the Risk and Continue button. The pfSense screen matching the one below will appear :
+Click the <u>Accept the Risk and Continue</u> button. 
+
+The pfSense screen matching the one below will appear :
 
 -- Insert Picture --
 
 Sign into this pfSense login page with the default credentials.
 
-Username : "admin"
-Password : "pfsense"
-Click "Next" on the initial screen to start the pfSense web setup and a bar saying Step 1 of 9 should appear at the top.
+-  Username : `admin`
+-  Password : `pfsense`
 
-Click "Next" again to proceed to Step 2 of 9.
+Click <u>Next</u> on the initial screen to start the pfSense web setup and a bar saying Step 1 of 9 should appear at the top.
 
-Leave the Hostname and Domain boxes empty.
-Set 8.8.8.8 as the Primary DNS Server.
-Set 4.4.4.4 as the Secondary DNS Server.
-Leave the Override DNS checkbox checked.
-Click "Next" to proceed to Step 3 of 9.
+Click <u>Next</u> again to proceed to Step 2 of 9.
 
-Leave the Time Server Hostname box empty.
-Set Timezone to your specific timezone.
-Click "Next" to proceed to Step 4 of 9.
+-  Leave the Hostname and Domain boxes empty.
+-  Set `8.8.8.8` as the Primary DNS Server.
+-  Set `4.4.4.4` as the Secondary DNS Server.
+-  Leave the Override DNS checkbox checked.
 
-Leave all options listed as default except the last two checked boxes.
-Uncheck the last two boxes.
+Click <u>Next</u> to proceed to Step 3 of 9.
+
+-  Leave the Time Server Hostname box empty.
+-  Set Timezone to your specific timezone.
+
+Click <u>Next</u> to proceed to Step 4 of 9.
+
+-  Leave all options listed as default except the last two checked boxes.
+-  Uncheck the last two boxes.
 
 -- Insert Picture --
 
-Click "Next" to proceed to Step 5 of 9.
+Click <u>Next</u> to proceed to Step 5 of 9.
 
-Leave all options default.
-Click "Next" to proceed to Step 6 of 9.
+-  Leave all options default.
 
-Set a new Admin Password.
-Click "Next" to proceed to Step 7 of 9.
+Click <u>Next</u> to proceed to Step 6 of 9.
 
-Click "Reload" to proceed to Step 8 of 9.
+-  Set a new Admin Password. **(Make sure to label and write this down!)**
 
-Click "Finish" to complete the web configuration process.
+Click <u>Next</u> to proceed to Step 7 of 9.
+
+Click <u>Reload</u> to proceed to Step 8 of 9.
+
+Click <u>Finish</u> to complete the web configuration process.
 
 After the web setup process is complete, the pfSense dashboard will now be available.
 
@@ -227,46 +240,45 @@ After the web setup process is complete, the pfSense dashboard will now be avail
 
 Next, configurations need to be made to the interfaces.
 
-Click on the Interfaces tab and select LAN on the dropdown menu.
+Click on the <u>Interfaces</u> tab and select <u>LAN</u> on the dropdown menu.
 
-For interface LAN, change the description from "LAN" to "Kali".
+For interface LAN, change the description from LAN to `Kali`. (This is to label the interfaces of what devices are running on what)
 
-(This is to label the interfaces of what devices are running on what)
-
-Click Save at the bottom.
+Click <u>Save</u> at the bottom.
 
 Repeat this process for all other interfaces (excluding em0/WAN interface).
 
-Keep WAN as "WAN"
-Change LAN to "Kali"
-Change OPT1 to "VictimNetwork"
-Change OPT2 to "SecOnion"
-Change OPT3 to "SpanPort"
-Ensure that OPT3 or now SpanPort interface is enabled.
-Change OPT4 to "Splunk"
+-  Keep WAN as `WAN`.
+-  Change LAN to `Kali`.
+-  Change OPT1 to `VictimNetwork`.
+-  Change OPT2 to `SecOnion`.
+-  Change OPT3 to `SpanPort`.
+-  Ensure that OPT3 or now SpanPort interface is enabled.
+-  Change OPT4 to `Splunk`.
+
 To confirm these changes, the interface list should match the screenshot below :
 
 -- Insert Picture --
 
 While in the Interfaces Assignment list, switch to the Bridges tab.
 
-Click Add.
+Click <u>Add</u>.
 
-Select VictimNetwork.
+Select <u>VictimNetwork</u>.
 
 -- Insert Picture --
 
-Click Display Advanced.
+Click <u>Display Advanced</u>.
 
-Scroll down to the Advanced Configuration Section and select SPANPORT for Span Port.
+Scroll down to the Advanced Configuration Section and select <u>SPANPORT</u> for Span Port.
 
-Then click Save at the bottom of the page.
+Then click <u>Save</u> at the bottom of the page.
 
-Now click the Rules option in the dropdown menu of the Firewall tab.
+Now click the <u>Rules</u> option in the dropdown menu of the Firewall tab.
 
-Click the Add button with the arrow that points downward.
+Click the <u>Add</u> button with the arrow that points downward.
 
-Under the Edit Firewall Rule section, select Any for the Protocol rule and then click Save at the buttom of the page.
+Under the Edit Firewall Rule section, select <u>Any</u> for the Protocol rule and then click <u>Save</u> at the buttom of the page.
 
 This concludes all of the setups and configurations made to the pfSense firewall for this home lab walkthrough.
 
