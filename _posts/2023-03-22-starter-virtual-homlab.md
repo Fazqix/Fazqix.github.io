@@ -89,8 +89,6 @@ Once the pfSense reboots with the default configured settings, you should come t
 
 -- Insert Picture --
 
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
-
 From here, type "1" to select 1) Assign Interfaces after the Enter an option: prompt.
 
 It will ask you if VLANs should be set up now, type "n" for no.
