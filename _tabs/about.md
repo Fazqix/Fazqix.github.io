@@ -28,7 +28,7 @@ At Republic Services, I contribute as an IT Apprentice for the Information Secur
 
 I am a volunteer Threat Intelligence Researcher for a growing subgroup of Arizona's Cyber Threat Research Alliance (ACTRA). This group is a dedicated community of threat hunters and vulnerability researchers, committed to producing actionable threat intelligence to combat cyber threats, with a focus on sharing insights with broader communities to enhance cybersecurity practices.
 
-I am contributing to this group by vigilantly tracking and investigating adversary tactics and attack patterns, utilizing expert analysis to anticipate and prepare for future threats, and actively shares strategic recommendations to proactively defend against cyber threats and safeguard critical assets.
+I contribute to this group by vigilantly tracking and investigating adversary tactics and attack patterns, utilizing expert analysis to anticipate and prepare for future threats, and actively shares strategic recommendations to proactively defend against cyber threats and safeguard critical assets.
 
 [Shell Shield Solutions](https://shell-shield-solutions.github.io/Shell-Shield/#) <br>
 
