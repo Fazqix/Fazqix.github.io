@@ -313,13 +313,13 @@ Security Onion ISO File Download Link :
 
 Once the initial stages of loading are complete, type "yes" when prompted with this screen :
 
-![SecurityOnionPrompt](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionPrompt.png)
+-- Insert Picture --
 
 Set a `username` and `password` when prompted and wait until Security Onion reboots.
 
 When Security Onion reboots, login and a setup screen like the one below will pop up. Click `<Yes>` to this prompt and proceed.
 
-![SecurityOnionPrompt](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionPrompt.png)
+-- Insert Picture --
 
 Click `Enter` while highlighting the `Install` option.
 
@@ -331,7 +331,7 @@ Set the `Hostname` to "SecOnion" or whatever is best to identify this machine an
 
 Select `ens32` displayed in the screenshot below using the spacebar again and click `<Ok>`.
 
-![SecurityOnionENS](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionENS.png)
+-- Insert Picture --
 
 Select `DHCP`, then `<Ok>`.
 
@@ -339,13 +339,13 @@ Click `Enter` to confirm and `Enter` again to continue.
 
 Select `Standard` on the prompt seen below and click `Enter`.
 
-![SecurityOnionStandard](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionStandard.png)
+-- Insert Picture --
 
 Select `Direct`, click `Enter`, and let the configurations load.
 
 Select `ens34` displayed in the screenshot below using the spacebar and click `<Ok>`.
 
-![SecurityOnionENS2](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionENS2.png)
+-- Insert Picture --
 
 Select `Automatic` for the OS patch schedule and click `<Ok>`.
 
@@ -367,7 +367,7 @@ Select `<No>` to running `so-allow` for now.
 
 I recommend noting or screenshotting the options set screen seen below for future reference before clicking `<Yes>`.
 
-![SecurityOnionOptionsSet](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionOptions.png)
+-- Insert Picture --
 
 Proceed and wait for Security Onion to initialize all the configuration steps. (This may take a while)
 
@@ -395,11 +395,11 @@ Ubuntu ISO File Download Link :
 
 Start up the Ubuntu virtual machine. Once logged in, the home screen should appear :
 
-![UbuntuHome](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/UbuntuHome.png)
+-- Insert Picture --
 
 Open up the `Terminal` in Ubuntu and run "ifconfig" so that the information below displays :
 
-![UbuntuConfig](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/UbuntuConfig.png)
+-- Insert Picture --
 
 *If an error appears referring to `net-tools` run this command :
 
@@ -427,7 +427,7 @@ Enter in the IP address of your Ubuntu machine that was noted in the previous sc
 
 If everything was done right, your screen should look like the one below :
 
-![SecurityOnionSoAllow](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/SecurityOnionSoAllow.png)
+-- Insert Picture --
 
 Click back on the Ubuntu machine and open the web browser.
 
@@ -435,17 +435,17 @@ Type the security onion host IP address into the address bar. This can be found 
 
 Once requested, the website with a risk warning should appear like the screenshot below :
 
-![UbuntuWebWarning](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/UbuntuWebWarning.png)
+-- Insert Picture --
 
 Click the `Advanced...` button and a new screen confirming to accept the risk will pop up.
 
 Click the `Accept the Risk and Continue` button. The security onion login screen matching the one below will appear :
 
-![UbuntuWebLogin](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/UbuntuWebLogin.png)
+-- Insert Picture --
 
 Log in using the security onion login created previously and the dashboard containing security alerts can now be accessed like shown below :
 
-![UbuntuAlerts](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/UbuntuAlerts.png)
+-- Insert Picture --
 
 This concludes the security onion setup.
 
@@ -478,7 +478,7 @@ Click `Install Now`.
 
 A screen like the one below should pop up listed with 4 options :
 
-![WindowsServerSelection](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerSelection.png)
+-- Insert Picture --
 
 Select the `Windows Server 2019 Standard Evaluation (Desktop Experience)` and click `Next`.
 
@@ -490,23 +490,23 @@ Select `Custom: Install Windows only (advanced)`.
 
 Click `New` with the yellow sun symbol and then `Apply`. The screen should then look like the visual below :
 
-![WindowsServerDrives](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerDrives.png)
+-- Insert Picture --
 
 Click `Ok`.
 
 Click `Next` and a window with installation status should appear like the one below :
 
-![WindowsServerInstall](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerInstall.png)
+-- Insert Picture --
 
 When the installation is complete, create a password for the Administration account and the machine should reboot.
 
 Log in using the Administrator account details in the screen below :
 
-![WindowsServerLogin](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerLogin.png)
+-- Insert Picture --
 
 After logging in, the dashboard of the server manager should automatically pop up as displayed below :
 
-![WindowsServerDashboard](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerDashboard.png)
+-- Insert Picture --
 
 Next the new server needs to be renamed. Navigate to `Settings` using the windows search bar.
 
@@ -516,13 +516,13 @@ The about page in settings will appear. Click the `Rename this PC` button.
 
 Type a name to identify this PC as and click `Next`. The screen should've look similar to the one below :
 
-![WindowsServerRename](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerRename.png)
+-- Insert Picture --
 
 After the server automatically reboots, the server manager will pop back up.
 
 Up in the top right corner of the server manager, Click `Manage` for a dropdown menu so your screen looks like the screen below :
 
-![WindowsServerRoles](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerRoles.png)
+-- Insert Picture --
 
 Select `Add Roles and Features` so a new windows pops up.
 
@@ -530,7 +530,7 @@ Click `Next` until you get to the `Server Roles` section of the wizard.
 
 Check the `Active Directory Domain Services` box in the long list and click `Add Features` like in the screenshot below :
 
-![WindowsServerADDS](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerADDS.png)
+-- Insert Picture --
 
 Click `Next` until you get to the `Confirmation` section of the wizard.
 
@@ -538,7 +538,7 @@ Now click `Install`
 
 An installation progress screen will show the status of the installation until completetion like the one below :
 
-![WindowsServerRoleInstall](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerRoleInstall.png)
+-- Insert Picture --
 
 After the install, click `Close`.
 
@@ -552,7 +552,7 @@ In the `Deployment Configuration` section, select `Add a new forest`.
 
 Choose a domain name like the screenshot below :
 
-![WindowsServerForest](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerForest.png)
+-- Insert Picture --
 
 Click `Next` and set a domain forest password.
 
@@ -560,7 +560,7 @@ Click the `Next` button until you get to the `Prerequisites Check` section.
 
 Wait for the check to register which will display some yellow cautions in the results box like the display below :
 
-![WindowsServerPrereq](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerPrereq.png)
+-- Insert Picture --
 
 Click `Install` and wait for the reboot.
 
@@ -572,7 +572,7 @@ Click `Next` until you get to the `Server Roles` section.
 
 Check the `Active Directory Certificate Services` box in the long list and click `Add Features` like in the screenshot below :
 
-![WindowsServerADCS](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerADCS.png)
+-- Insert Picture --
 
 Click `Next` until you get to the `Confirmation` section of the wizard.
 
@@ -582,7 +582,7 @@ Click `Install`.
 
 After the installation, click `Close` seen in the screenshot below :
 
-![WindowsServerADCSProgress](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerADCSProgress.png)
+-- Insert Picture --
 
 In the server manager, click the flag buton with the yellow caution triangle in the top right corner.
 
@@ -596,7 +596,7 @@ Within the `Roles Services` section, check the `Certification Authority` box.
 
 Click `Next` until you get to the `Validity Period` section. Change the number to `99 Years` like the screenshot below :
 
-![WindowsServerADCSValidity](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerADCSValidity.png)
+-- Insert Picture --
 
 Click `Next` until the `Confirmation` section. Click the `Configure` button, then `Close`.
 
@@ -614,11 +614,11 @@ Right click on the `Users` folder, hover over `New`, and select `User`.
 
 Your screen should match the screenshot below before clicking :
 
-![WindowsServerAddUser](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerAddUser.png)
+-- Insert Picture --
 
 Enter a First, Last, & User Logon name for the new user like the window below :
 
-![WindowsServerExampleUser](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerExampleUser.png)
+-- Insert Picture --
 
 (In `User logon name:`, type the "-WIN10" after the initials of the user)
 
@@ -630,7 +630,7 @@ Click `Finish`.
 
 Right click the new user created and click copy like the screenshot below :
 
-![WindowsServerUserCopy](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerUserCopy.png)
+-- Insert Picture --
 
 Created another user with the same method as the first. Instead of adding "-WIN10", add "-WIN7" after the initials.
 
@@ -638,7 +638,7 @@ Now, go to the Windows search bar and search "Windows Defender Firewall".
 
 Click `Turn Windows Defender Firewall on or off`. Turn the firewall off for all networks to match the screenshot below :
 
-![WindowsServerFirewall](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerFirewall.png)
+-- Insert Picture --
 
 Click `OK`.
 
@@ -656,7 +656,7 @@ Double click on `Internet Protocol Version 4 (TCP/IPv4)`.
 
 Enter the following and match the screenshot below :
 
-![WindowsServerGateway](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/WindowsServerGateway.png)
+-- Insert Picture --
 
 Click `OK` twice and reboot the server to update the changes.
 
