@@ -95,7 +95,7 @@ Once the pfSense reboots with the default configured settings, you should come t
 
 ---
 
-![pfSenseInterfaces](https://raw.github.com/Fazqix/Fazqix.github.io/assets/img/starter-homelab/pfSenseInterfaces.png)
+![pfSenseInterfaces](https://raw.github.com/Fazqix/Fazqix.github.io/assets/img/posts/starter-homelab/pfSenseInterfaces.png)
 
 From here, type `1` to select 1) Assign Interfaces after the Enter an option: prompt.
 
