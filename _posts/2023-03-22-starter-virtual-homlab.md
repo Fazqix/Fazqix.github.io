@@ -331,7 +331,7 @@ Set the `Hostname` to "SecOnion" or whatever is best to identify this machine an
 
 Select `ens32` displayed in the screenshot below using the spacebar again and click `<Ok>`.
 
-![SecOnionENS1](/assets/img/posts/starter-homelab/SecOnionENS1.webp)
+![SecOnionENS1](/assets/img/posts/starter-homelab/SecOnionENSManagement.webp)
 
 Select `DHCP`, then `<Ok>`.
 
@@ -345,7 +345,7 @@ Select `Direct`, click `Enter`, and let the configurations load.
 
 Select `ens34` displayed in the screenshot below using the spacebar and click `<Ok>`.
 
-![SecOnionENS2](/assets/img/posts/starter-homelab/SecOnionENS2.webp)
+![SecOnionENS2](/assets/img/posts/starter-homelab/SecOnionENSMonitor.webp)
 
 Select `Automatic` for the OS patch schedule and click `<Ok>`.
 
