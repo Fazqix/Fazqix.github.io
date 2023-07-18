@@ -167,6 +167,8 @@ Start with picking the OPT4 interface which is number 6.
 
 After all those changes to each interface, the interface list at the main menu should look like this :
 
+![pfSenseInterfaceList](/assets/img/posts/starter-homelab/pfSenseInterfaceList.webp)
+
 The WAN Interface IP address will most likely be different so don't panic :)
 
 PfSense is safe to shut down from here by typing `6` to Halt System.
@@ -186,7 +188,7 @@ Navigate to the web browser and search <https://192.168.1.1>
 
 If successfully connected to the pfSense firewall, a screen like the one below should show up :
 
--- Insert Picture --
+![pfSenseWebWarning](/assets/img/posts/starter-homelab/pfSenseWebWarning.webp)
 
 Click the Advanced... button and a new screen confirming to accept the risk will pop up.
 
@@ -194,7 +196,7 @@ Click the Accept the Risk and Continue button.
 
 The pfSense screen matching the one below will appear :
 
--- Insert Picture --
+![pfSenseWebLogin](/assets/img/posts/starter-homelab/pfSenseWebLogin.webp)
 
 Sign into this pfSense login page with the default credentials.
 
@@ -220,7 +222,7 @@ Click Next to proceed to Step 4 of 9.
 -  Leave all options listed as default except the last two checked boxes.
 -  Uncheck the last two boxes.
 
--- Insert Picture --
+![pfSenseUntickOptions](/assets/img/posts/starter-homelab/pfSenseUntickOptions.webp)
 
 Click Next to proceed to Step 5 of 9.
 
@@ -238,7 +240,7 @@ Click Finish to complete the web configuration process.
 
 After the web setup process is complete, the pfSense dashboard will now be available.
 
--- Insert Picture --
+![pfSenseDashboard](/assets/img/posts/starter-homelab/pfSenseDashboard.webp)
 
 Next, configurations need to be made to the interfaces.
 
@@ -260,7 +262,7 @@ Repeat this process for all other interfaces (excluding em0/WAN interface).
 
 To confirm these changes, the interface list should match the screenshot below :
 
--- Insert Picture --
+![pfSenseWebInterfaceList](/assets/img/posts/starter-homelab/pfSenseWebInterfaceList.webp)
 
 While in the Interfaces Assignment list, switch to the Bridges tab.
 
@@ -268,7 +270,7 @@ Click Add.
 
 Select VictimNetwork.
 
--- Insert Picture --
+![pfSenseDisplayAdvanced](/assets/img/posts/starter-homelab/pfSenseDisplayAdvanced.webp)
 
 Click Display Advanced.
 
