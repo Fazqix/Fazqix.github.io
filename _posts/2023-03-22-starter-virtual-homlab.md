@@ -449,7 +449,7 @@ Log in using the security onion login created previously and the dashboard conta
 
 ![SecurityOnionWebDashboard](/assets/img/posts/starter-homelab/SecOnionWebDashboard.webp)
 
-This concludes the security onion setup. :)
+This concludes the security onion setup.
 
 ---
 
