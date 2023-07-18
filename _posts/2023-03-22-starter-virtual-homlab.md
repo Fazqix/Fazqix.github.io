@@ -91,7 +91,7 @@ Accept all defaults and allow pfSense reboot. More specifically this means click
 
 Once the pfSense reboots with the default configured settings, you should come to a screen similar to this :
 
--- Insert Picture --
+![pfSenseInterfaces](https://raw.github.com/Fazqix/Virtual-Home-Lab/master/Images/pfSenseInterfaces.png)
 
 From here, type `1` to select 1) Assign Interfaces after the Enter an option: prompt.
 
@@ -403,7 +403,7 @@ Open up the `Terminal` in Ubuntu and run "ifconfig" so that the information belo
 
 *If an error appears referring to `net-tools` run this command :
 
-```
+``` Terminal
 sudo apt install net-tools 
 ```
 
@@ -415,7 +415,7 @@ Click back onto the security onion host and log back in if not already.
 
 Type this command :
 
-```
+``` Terminal
 sudo so-allow
 ```
 
