@@ -4,6 +4,8 @@ title: "Building a Starter HomeLab"
 date: 2023-03-22 12:00:00 -500
 categories: homelab
 tags: homelab splunk pfsense securityonion windows linux
+image:
+    path: /assets/img/headers/StarterVirtualHomeLab.webp
 pin: true
 ---
 
