@@ -91,7 +91,7 @@ Accept all defaults and allow pfSense reboot. More specifically this means click
 
 Once the pfSense reboots with the default configured settings, you should come to a screen similar to this :
 
-![pfSenseInterfaces](https://raw.github.com/Fazqix/Fazqix.github.io/assets/img/posts/starter-homelab/pfSenseInterfaces.webp)
+![pfSenseInterfaces](/assets/img/posts/starter-homelab/pfSenseInterfaces.webp)
 
 From here, type `1` to select 1) Assign Interfaces after the Enter an option: prompt.
 
