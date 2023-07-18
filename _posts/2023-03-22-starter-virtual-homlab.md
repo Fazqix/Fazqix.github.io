@@ -667,12 +667,31 @@ Click `OK` twice and reboot the server to update the changes.
 
 ### **Vulnerable Windows 10 Hosts**
 
-Filler
+Windows 10 ISO File Download Link : 
+
+<https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise>
+    
+Recommended VM Settings are :
+
+-  Disk Size : 60 GB (Default)
+-  Memory : 2 GB or 2,048 MB (Default)
+
+Additional Network Settings :
+
+-  Network Adapter 1 : VMnet3
+
+*All other settings can be left at default.*
+
+## Joining the Windows 10 PCs to the Domain Server
+
+Placeholder
 
 ---
 
-### **Splunk Walkthrough**
+### **Splunk**
 
-Filler
+Splunk ISO File Download Link :
 
----
+<SplunkLink>
+
+Recommended VM Settings are :
