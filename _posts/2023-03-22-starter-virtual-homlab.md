@@ -482,7 +482,7 @@ Click `Install Now`.
 
 A screen like the one below should pop up listed with 4 options :
 
--- Insert Picture --
+![WinServerOSSelection](/assets/img/posts/starter-homelab/WinServerOSSelection.webp)
 
 Select the `Windows Server 2019 Standard Evaluation (Desktop Experience)` and click `Next`.
 
@@ -494,23 +494,23 @@ Select `Custom: Install Windows only (advanced)`.
 
 Click `New` with the yellow sun symbol and then `Apply`. The screen should then look like the visual below :
 
--- Insert Picture --
+![WinServerDriveSelection](/assets/img/posts/starter-homelab/WinServerDriveSelection.webp)
 
 Click `Ok`.
 
 Click `Next` and a window with installation status should appear like the one below :
 
--- Insert Picture --
+![WinServerInstallProgress](/assets/img/posts/starter-homelab/WinServerInstallProgress.webp)
 
 When the installation is complete, create a password for the Administration account and the machine should reboot.
 
 Log in using the Administrator account details in the screen below :
 
--- Insert Picture --
+![WinServerLogin](/assets/img/posts/starter-homelab/WinServerLogin.webp)
 
 After logging in, the dashboard of the server manager should automatically pop up as displayed below :
 
--- Insert Picture --
+![WinServerDashboard](/assets/img/posts/starter-homelab/WinServerDashboard.webp)
 
 Next the new server needs to be renamed. Navigate to `Settings` using the windows search bar.
 
@@ -520,13 +520,12 @@ The about page in settings will appear. Click the `Rename this PC` button.
 
 Type a name to identify this PC as and click `Next`. The screen should've look similar to the one below :
 
--- Insert Picture --
-
+![WinServerRename](/assets/img/posts/starter-homelab/WinServerRename.webp)
 After the server automatically reboots, the server manager will pop back up.
 
 Up in the top right corner of the server manager, Click `Manage` for a dropdown menu so your screen looks like the screen below :
 
--- Insert Picture --
+![WinServerRoles](/assets/img/posts/starter-homelab/WinServerRoles.webp)
 
 Select `Add Roles and Features` so a new windows pops up.
 
@@ -534,7 +533,7 @@ Click `Next` until you get to the `Server Roles` section of the wizard.
 
 Check the `Active Directory Domain Services` box in the long list and click `Add Features` like in the screenshot below :
 
--- Insert Picture --
+![WinServerADDS](/assets/img/posts/starter-homelab/WinServerADDS.webp)
 
 Click `Next` until you get to the `Confirmation` section of the wizard.
 
@@ -542,7 +541,7 @@ Now click `Install`
 
 An installation progress screen will show the status of the installation until completetion like the one below :
 
--- Insert Picture --
+![WinServerRoleInstall](/assets/img/posts/starter-homelab/WinServerRoleInstall.webp)
 
 After the install, click `Close`.
 
@@ -556,7 +555,7 @@ In the `Deployment Configuration` section, select `Add a new forest`.
 
 Choose a domain name like the screenshot below :
 
--- Insert Picture --
+![WinServerForest](/assets/img/posts/starter-homelab/WinServerForest.webp)
 
 Click `Next` and set a domain forest password.
 
@@ -564,7 +563,7 @@ Click the `Next` button until you get to the `Prerequisites Check` section.
 
 Wait for the check to register which will display some yellow cautions in the results box like the display below :
 
--- Insert Picture --
+![WinServerPreReq](/assets/img/posts/starter-homelab/WinServerPreReq.webp)
 
 Click `Install` and wait for the reboot.
 
@@ -576,7 +575,7 @@ Click `Next` until you get to the `Server Roles` section.
 
 Check the `Active Directory Certificate Services` box in the long list and click `Add Features` like in the screenshot below :
 
--- Insert Picture --
+![WinServerADCS](/assets/img/posts/starter-homelab/WinServerADCS.webp)
 
 Click `Next` until you get to the `Confirmation` section of the wizard.
 
@@ -586,7 +585,7 @@ Click `Install`.
 
 After the installation, click `Close` seen in the screenshot below :
 
--- Insert Picture --
+![WinServerADCSProgress](/assets/img/posts/starter-homelab/WinServerADCSProgress.webp)
 
 In the server manager, click the flag buton with the yellow caution triangle in the top right corner.
 
@@ -600,7 +599,7 @@ Within the `Roles Services` section, check the `Certification Authority` box.
 
 Click `Next` until you get to the `Validity Period` section. Change the number to `99 Years` like the screenshot below :
 
--- Insert Picture --
+![WinServerADCSValidity](/assets/img/posts/starter-homelab/WinServerADCSValidity.webp)
 
 Click `Next` until the `Confirmation` section. Click the `Configure` button, then `Close`.
 
@@ -618,11 +617,11 @@ Right click on the `Users` folder, hover over `New`, and select `User`.
 
 Your screen should match the screenshot below before clicking :
 
--- Insert Picture --
+![WinServerAddUser](/assets/img/posts/starter-homelab/WinServerAddUser.webp)
 
 Enter a First, Last, and User Logon name for the new user like the window below :
 
--- Insert Picture --
+![WinServerExampleUser](/assets/img/posts/starter-homelab/WinServerExampleUser.webp)
 
 (In `User logon name:`, type the "-WIN10" after the initials of the user)
 
@@ -634,7 +633,7 @@ Click `Finish`.
 
 Right click the new user created and click copy like the screenshot below :
 
--- Insert Picture --
+![WinServerUserCopy](/assets/img/posts/starter-homelab/WinServerUserCopy.webp)
 
 Created another user with the same method as the first. Instead of adding "-WIN10", add "-WIN7" after the initials.
 
@@ -642,7 +641,7 @@ Now, go to the Windows search bar and search "Windows Defender Firewall".
 
 Click `Turn Windows Defender Firewall on or off`. Turn the firewall off for all networks to match the screenshot below :
 
--- Insert Picture --
+![WinServerFirewall](/assets/img/posts/starter-homelab/WinServerFirewall.webp)
 
 Click `OK`.
 
@@ -660,7 +659,7 @@ Double click on `Internet Protocol Version 4 (TCP/IPv4)`.
 
 Enter the following and match the screenshot below :
 
--- Insert Picture --
+![WinServerGateway](/assets/img/posts/starter-homelab/WinServerGateway.webp)
 
 Click `OK` twice and reboot the server to update the changes.
 
