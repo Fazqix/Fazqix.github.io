@@ -48,13 +48,13 @@ Kali Linux ISO File Download Link :
 
 <https://www.kali.org/get-kali/#kali-virtual-machines>
 
-<u>Recommended VM Settings are :</u>
+Recommended VM Settings are :
 
 -  Disk Size : 80 GB (Store Virtual Disk as a Single File)
 -  Memory : 4 GB or 4,096 MB
 -  Processors : 4
 
-<u>Additional Network Settings :</u>
+Additional Network Settings :
 
 -  Network Adapter 1 : NAT
 -  Network Adapter 2 : VMnet2
@@ -69,12 +69,12 @@ PfSense ISO File Download Link :
 
 <https://www.pfsense.org/download/>
 
-<u>Recommended VM Settings are :</u>
+Recommended VM Settings are :
 
 -  Disk Size : 20 GB (Split Virtual Disk into Multiple Files)
 -  Memory : 2 GB or 2,048 MB
 
-<u>Additional Network Settings :</u>
+Additional Network Settings :
 
 -  Network Adapter 1 : NAT
 -  Network Adapter 2 : VMnet2
@@ -111,7 +111,7 @@ Then type `Y` to proceed.
 > These changes will be made and the menu from the screenshot above should pop back up. 
 {: .prompt-info }
 
-**<u>LAN Interface</u>**
+**LAN Interface**
 
 From here, type `2` to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
@@ -125,7 +125,7 @@ Start with picking the LAN interface which is number 2.
 -  Set the end address of the IPv4 range as `192.168.1.200`.
 -  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
-**<u>OPT1 Interface</u>**
+**OPT1 Interface**
 
 From here, type `2` again to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
@@ -137,7 +137,7 @@ Start with picking the OPT1 interface which is number 3.
 -  Type `N` to enable the DHCP server on LAN.
 -  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
-**<u>OPT2 Interface</u>**
+**OPT2 Interface**
 
 From here, type `2` again to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
@@ -149,11 +149,11 @@ Start with picking the OPT2 interface which is number 4.
 -  Type `N` to enable the DHCP server on LAN.
 -  Type `N` to not revert to HTTP as the webConfigurator protocol.
 
-**<u>OPT3 Interface</u>**
+**OPT3 Interface**
 
 Leave **OPT3 Interface** without an IP address as it is going to have traffic that will be monitored by Security Onion.
 
-**<u>OPT4 Interface</u>**
+**OPT4 Interface**
 
 From here, type `2` again to select 2) Set interface(s) IP address after the Enter an option: prompt.
 
@@ -190,9 +190,9 @@ If successfully connected to the pfSense firewall, a screen like the one below s
 
 -- Insert Picture --
 
-Click the <u>Advanced...</u> button and a new screen confirming to accept the risk will pop up.
+Click the Advanced... button and a new screen confirming to accept the risk will pop up.
 
-Click the <u>Accept the Risk and Continue</u> button. 
+Click the Accept the Risk and Continue button. 
 
 The pfSense screen matching the one below will appear :
 
@@ -203,40 +203,40 @@ Sign into this pfSense login page with the default credentials.
 -  Username : `admin`
 -  Password : `pfsense`
 
-Click <u>Next</u> on the initial screen to start the pfSense web setup and a bar saying Step 1 of 9 should appear at the top.
+Click Next on the initial screen to start the pfSense web setup and a bar saying Step 1 of 9 should appear at the top.
 
-Click <u>Next</u> again to proceed to Step 2 of 9.
+Click Next again to proceed to Step 2 of 9.
 
 -  Leave the Hostname and Domain boxes empty.
 -  Set `8.8.8.8` as the Primary DNS Server.
 -  Set `4.4.4.4` as the Secondary DNS Server.
 -  Leave the Override DNS checkbox checked.
 
-Click <u>Next</u> to proceed to Step 3 of 9.
+Click Next to proceed to Step 3 of 9.
 
 -  Leave the Time Server Hostname box empty.
 -  Set Timezone to your specific timezone.
 
-Click <u>Next</u> to proceed to Step 4 of 9.
+Click Next to proceed to Step 4 of 9.
 
 -  Leave all options listed as default except the last two checked boxes.
 -  Uncheck the last two boxes.
 
 -- Insert Picture --
 
-Click <u>Next</u> to proceed to Step 5 of 9.
+Click Next to proceed to Step 5 of 9.
 
 -  Leave all options default.
 
-Click <u>Next</u> to proceed to Step 6 of 9.
+Click Next to proceed to Step 6 of 9.
 
 -  Set a new Admin Password. **(Make sure to label and write this down!)**
 
-Click <u>Next</u> to proceed to Step 7 of 9.
+Click Next to proceed to Step 7 of 9.
 
-Click <u>Reload</u> to proceed to Step 8 of 9.
+Click Reload to proceed to Step 8 of 9.
 
-Click <u>Finish</u> to complete the web configuration process.
+Click Finish to complete the web configuration process.
 
 After the web setup process is complete, the pfSense dashboard will now be available.
 
@@ -244,11 +244,11 @@ After the web setup process is complete, the pfSense dashboard will now be avail
 
 Next, configurations need to be made to the interfaces.
 
-Click on the <u>Interfaces</u> tab and select <u>LAN</u> on the dropdown menu.
+Click on the Interfaces tab and select LAN on the dropdown menu.
 
 For interface LAN, change the description from LAN to `Kali`. (This is to label the interfaces of what devices are running on what)
 
-Click <u>Save</u> at the bottom.
+Click Save at the bottom.
 
 Repeat this process for all other interfaces (excluding em0/WAN interface).
 
@@ -266,23 +266,23 @@ To confirm these changes, the interface list should match the screenshot below :
 
 While in the Interfaces Assignment list, switch to the Bridges tab.
 
-Click <u>Add</u>.
+Click Add.
 
-Select <u>VictimNetwork</u>.
+Select VictimNetwork.
 
 -- Insert Picture --
 
-Click <u>Display Advanced</u>.
+Click Display Advanced.
 
-Scroll down to the Advanced Configuration Section and select <u>SPANPORT</u> for Span Port.
+Scroll down to the Advanced Configuration Section and select SPANPORT for Span Port.
 
-Then click <u>Save</u> at the bottom of the page.
+Then click Save at the bottom of the page.
 
-Now click the <u>Rules</u> option in the dropdown menu of the Firewall tab.
+Now click the Rules option in the dropdown menu of the Firewall tab.
 
-Click the <u>Add</u> button with the arrow that points downward.
+Click the Add button with the arrow that points downward.
 
-Under the Edit Firewall Rule section, select <u>Any</u> for the Protocol rule and then click <u>Save</u> at the buttom of the page.
+Under the Edit Firewall Rule section, select Any for the Protocol rule and then click Save at the buttom of the page.
 
 This concludes all of the setups and configurations made to the pfSense firewall for this home lab walkthrough.
 
@@ -294,14 +294,14 @@ Security Onion ISO File Download Link :
 
 <https://github.com/Security-Onion-Solutions/securityonion/blob/master/VERIFY_ISO.md>
 
-<u>Recommended VM Settings are :</u>
+Recommended VM Settings are :
 
 -  Version : Linux (CentOS 7 64-bit)
 -  Disk Size : 200 GB (Store Virutal Disk as a Single File)
 -  Memory : 15 GB or 16,384 MB
 -  Processors : 4
 
-<u>Additional Network Settings :</u>
+Additional Network Settings :
 
 -  Network Adapter 1 : NAT
 -  Network Adapter 2 : VMnet4
@@ -379,13 +379,13 @@ Ubuntu ISO File Download Link :
 
 <https://ubuntu.com/download/desktop>
 
-<u>Recommended VM Settings are :</u>
+Recommended VM Settings are :
 
 -  Disk Size : 20 GB (Split Virtual Disk into Multiple Files)
 -  Memory : 15 GB or 16,384 MB
 -  Processors : 4
 
-<u>Additional Network Settings :</u>
+Additional Network Settings :
 
 -  Network Adapter 1 : NAT
 
@@ -457,12 +457,12 @@ Windows Server 2019 ISO File Download Link :
 
 <https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019>
     
-<u>Recommended VM Settings are :</u>
+Recommended VM Settings are :
 
 -  Disk Size : 60 GB (Default)
 -  Memory : 2 GB or 2,048 MB (Default)
 
-<u>Additional Network Settings :</u>
+Additional Network Settings :
 
 -  Network Adapter 1 : VMnet3
 
@@ -616,7 +616,7 @@ Your screen should match the screenshot below before clicking :
 
 -- Insert Picture --
 
-Enter a First, Last, & User Logon name for the new user like the window below :
+Enter a First, Last, and User Logon name for the new user like the window below :
 
 -- Insert Picture --
 
