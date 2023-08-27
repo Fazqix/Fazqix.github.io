@@ -16,10 +16,9 @@
   type: rss
   icon: "fas fa-rss"
   noblank: true
--
 
 
-#
+#   Additional contact options.
 # -
 #  type: twitter
 #  icon: 'fab fa-twitter'
