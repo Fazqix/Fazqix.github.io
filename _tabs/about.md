@@ -21,6 +21,6 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
 [//]: <> Social Media Buttons
 
 [![GitHub-Button](/assets/img/buttons/GitHub-Button.webp)](https://github.com/Fazqix)
-[![GitHub-Button](/assets/img/buttons/LinkedIn-Button.webp)](https://www.linkedin.com/in/brandon-hollas/)
+[![LinkedIn-Button](/assets/img/buttons/LinkedIn-Button.webp)](https://www.linkedin.com/in/brandon-hollas/)
 
 <u>________________________________________________________________________________________________</u>
