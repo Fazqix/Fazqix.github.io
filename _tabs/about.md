@@ -20,7 +20,7 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
 
 [//]: <> Social Media Buttons
 
-<p style="text-align:center"> <a href="https://github.com/Fazqix"> <img alt="GitHub" src="https://raw.githubusercontent.com/Fazqix/Fazqix.github.io/main/assets/img/buttons/GitHub-Button.webp" /> </a>
+<p style="text-align:center"> <a href="https://github.com/Fazqix" target="_blank"> <img alt="GitHub" src="https://raw.githubusercontent.com/Fazqix/Fazqix.github.io/main/assets/img/buttons/GitHub-Button.webp" /> </a>
 </p>
 
 <u>________________________________________________________________________________________________</u>
