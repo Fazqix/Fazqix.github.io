@@ -43,16 +43,12 @@ Visit the [Ruby Site](https://rubyinstaller.org/) and download the latest Ruby v
 <details>
 <summary><strong>Screenshots</strong></summary>
 
-<img src="/assets/img/screenshots/jekyll-site-setup/">
-
 </details>
 
 Once the initial installation process is completed, a command prompt window will open asking for MSYS2 
 
 <details>
 <summary><strong>Screenshots</strong></summary>
-
-<img src="/assets/img/screenshots/jekyll-site-setup/">
 
 </details>
 
@@ -83,8 +79,6 @@ jekyll -v
 <details>
 <summary><strong>Screenshots</strong></summary>
 
-<img src="/assets/img/screenshots/jekyll-site-setup/">
-
 </details> 
 
 ### Installing Bundler
@@ -103,8 +97,6 @@ bundler -v
 
 <details>
 <summary><strong>Screenshots</strong></summary>
-
-<img src="/assets/img/screenshots/jekyll-site-setup/">
 
 </details> 
 
