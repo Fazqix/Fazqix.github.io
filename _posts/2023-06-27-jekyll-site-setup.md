@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll | A Static Site Generator"
-date: 2023-08-28 12:00:00 -500
+date: 2023-08-27 12:00:00 -500
 categories: Website
 tags: jekyll website site generator
 pin: true
