@@ -19,9 +19,9 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
 
 [//]: <> Social Media Buttons
 
-<p style="text-align:center">
+<p style="text-align: center">
 
-<a href="https://fazqix.github.io/"> <img src= "https://img.shields.io/badge/Portfolio-E60E0E?style=for-the-badge&logo=safari&logoColor=white" /> </a>
+<a href="https://fazqix.github.io/" target="_blank"> <img src= "https://img.shields.io/badge/Portfolio-E60E0E?style=for-the-badge&logo=safari&logoColor=white" /> </a>
 
 </p>
 
