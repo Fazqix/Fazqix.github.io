@@ -27,11 +27,11 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
   
 <a href="https://github.com/Fazqix" target="_blank"> <img src="https://img.shields.io/badge/GitHub-570094?style=for-the-badge&logo=github&logoColor=white" target="_blank" /> </a>
 
-<a href="https://twitter.com/Fazqix" target="_blank"> <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" target="_blank" /> </a>
-
 <a href="mailto:brandon.hollas@gmail.com"> <img src="https://img.shields.io/badge/Gmail-E0E0E0?style=for-the-badge&logo=gmail&logoColor=red" /> </a>
 
-  <a href="  https://tryhackme.com/p/Fazqix" target="_blank"> <img src="https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White" target="_blank" /> </a>
+<a href="https://twitter.com/Fazqix" target="_blank"> <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" target="_blank" /> </a>
+
+<a href="  https://tryhackme.com/p/Fazqix" target="_blank"> <img src="https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White" target="_blank" /> </a>
 
 </div>
 
