@@ -23,7 +23,7 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
 [![LINKEDIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/brandon-hollas/)
 [![GITHUB](https://img.shields.io/badge/GitHub-570094?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fazqix)
 [![TWITTER](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/Fazqix)
-[![MASTODON](https://img.shields.io/badge/Mastodon-E60E0E?style=for-the-badge&logo=Mastodon&logoColor=white)](https://twitter.com/Fazqix)
+[![MASTODON](https://img.shields.io/badge/Mastodon-E60E0E?style=for-the-badge&logo=Mastodon&logoColor=white)](https://infosec.exchange/@Fazqix)
 [![GMAIL](https://img.shields.io/badge/Gmail-E0E0E0?style=for-the-badge&logo=gmail&logoColor=red)](mailto:brandon.hollas@gmail.com)
 [![TRYHACKME](https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White)](https://tryhackme.com/p/Fazqix)
 
