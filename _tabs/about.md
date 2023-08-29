@@ -21,11 +21,9 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
 
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-E60E0E?style=for-the-badge&logo=safari&logoColor=white)](https://fazqix.github.io/)
-[![Portfolio](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/brandon-hollas/)
-[![Portfolio](https://img.shields.io/badge/GitHub-570094?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fazqix)
-[![Portfolio](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/Fazqix)
-
-[//]: <> [![Portfolio](https://img.shields.io/badge/Gmail-E0E0E0?style=for-the-badge&logo=gmail&logoColor=red)](mailto:brandon.hollas@gmail.com)
-
-[![Portfolio](https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White)](https://tryhackme.com/p/Fazqix)
+[![PORTFOLIO](https://img.shields.io/badge/Portfolio-E60E0E?style=for-the-badge&logo=safari&logoColor=white)](https://fazqix.github.io/)
+[![LINKEDIN](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/brandon-hollas/)
+[![GITHUB](https://img.shields.io/badge/GitHub-570094?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fazqix)
+[![TWITTER](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/Fazqix)
+[![GMAIL](https://img.shields.io/badge/Gmail-E0E0E0?style=for-the-badge&logo=gmail&logoColor=red)](mailto:brandon.hollas@gmail.com)
+[![TRYHACKME](https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White)](https://tryhackme.com/p/Fazqix)
