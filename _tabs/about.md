@@ -19,15 +19,27 @@ I am dedicated to leveraging my expertise and experience to contribute to the de
 
 [//]: <> Social Media Buttons
 
-<div align="centered">
+<center>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-E60E0E?style=for-the-badge&logo=safari&logoColor=white)](https://fazqix.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/brandon-hollas/)
-[![GitHub](https://img.shields.io/badge/GitHub-570094?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fazqix)
-[![Gmail](https://img.shields.io/badge/Gmail-E0E0E0?style=for-the-badge&logo=gmail&logoColor=red)](mailto:brandon.hollas@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/Fazqix)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White)](https://tryhackme.com/p/Fazqix)
+  <a href="https://fazqix.github.io/" target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-E60E0E?style=for-the-badge&logo=safari&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://linkedin.com/in/brandon-hollas/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+   <a href="https://github.com/Fazqix" target="_blank">
+     <img src="https://img.shields.io/badge/GitHub-570094?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
+  </a>
+   <a href="https://twitter.com/Fazqix" target="_blank">
+     <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" target="_blank" />
+  </a>
+  <a href="mailto:brandon.hollas@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-E0E0E0?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="  https://tryhackme.com/p/Fazqix" target="_blank">
+    <img src="https://img.shields.io/badge/TryHackMe-79D200?style=for-the-badge&logo=tryhackme&logoColor=White" target="_blank" />
+  </a>
 
-</div>
+</center>
 
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
